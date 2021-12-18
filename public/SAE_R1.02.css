@@ -196,16 +196,15 @@ p.leftvid{
     color:white;
     font-size:x-large;
     border: 2pt solid rgba(255, 190, 94, 1);
-    border-right: none;    
+    border-right: none;  
+    overflow:auto;  
 }
 
 
 #txtblr{
     margin-left: 2%;
     margin-right: 2%;
-    text-align:justify;
-    color: black;
-    padding-top:23pt;
+    color:black;
     text-align:justify;
 }
 
@@ -629,11 +628,74 @@ p#GrisRight{
 
 
 
-@media screen and (max-width:650px) {
-    body{
-        align-items: center;
+@media screen and (max-width: 930px){
+    header{
+        height: 100pt;
+        width: 100%;
+    
     }
-    #map {
-        width: 90%;
+    #lyon1{
+        margin-top: 60%;
+    }
+    header li{
+        flex-direction: column;
+        height: 100pt;
+        width: auto;
+    }
+    header li a{
+        height: auto;
+        width: 100%;
+    }
+    .boutonmenu{
+        width: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .blanctop{
+        height: 100pt;
+    }
+    .blanc{
+        width: 100%;
+        height: auto;
+    }
+    .orsecleft{
+        width: auto;
+        height: auto;
+    }
+    .blancvid{
+        width: auto;
+        height: auto;
+        margin-bottom: 90pt;
+    }
+    .leftvid{
+        width: auto;
+        height: auto;
+    }
+    .rightvid{
+        width: auto;
+        height: auto;
+    }
+    .tram{
+        width: auto;
+        height: auto;   
+    }
+    .bus{
+        width: auto;
+        height: auto;   
+    }
+    .resto{
+        width: auto;
+        height: auto;   
+    }
+    .leftmentext{
+        width: auto;
+        height: auto;
+    }
+    .orsecright{
+        margin-bottom: 50pt;
+    }
+    .noirseccenter{
+        width: auto;
+        height: auto;
     }
 }
