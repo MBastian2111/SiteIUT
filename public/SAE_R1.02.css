@@ -179,9 +179,11 @@ p.leftvid{
     color: black;
     font-size: 150%;
 }
+
 #txtbll a:hover{
     border-bottom: 1px solid black;
 }
+
 
 /*droite*/
 
@@ -203,6 +205,8 @@ p.leftvid{
     margin-right: 2%;
     text-align:justify;
     color: black;
+    padding-top:23pt;
+    text-align:justify;
 }
 
 /*section blanche*/
@@ -524,7 +528,11 @@ p.leftvid{
     font-size: 120%;
 }
 
-
+.info{
+    margin-left: 20%;
+    margin-top:43px ;
+    font-size: 120%;
+}
 
 .orseccenter{
     width: 90%;
