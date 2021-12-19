@@ -48,7 +48,7 @@ nav .right {
 
 /*moche a changer*/
 
-#lyon1{
+.lyon1{
     width: 100%;
     border-radius: 0pt 0pt 0pt 10pt;
 }
@@ -167,20 +167,20 @@ p.leftvid{
 }
 
 
-#txtbll{
+.txtbll{
     margin-left: 2%;
     margin-right: 2%;
     padding-top:14pt;
     text-align: center;
 }
 
-#txtbll a {
+.txtbll a {
     text-decoration: none;
     color: black;
     font-size: 150%;
 }
 
-#txtbll a:hover{
+.txtbll a:hover{
     border-bottom: 1px solid black;
 }
 
@@ -634,7 +634,7 @@ p.leftvid{
         width: 100%;
     
     }
-    #lyon1{
+    .lyon1{
         margin-top: 60%;
     }
     header li{
