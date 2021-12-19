@@ -646,10 +646,15 @@ p#GrisRight{
         height: auto;
         width: 100%;
     }
+    .right{
+        justify-content:center;
+        align-items:center;
+    }
     .boutonmenu{
         width: auto;
-        margin-top: 1%;
-        margin-bottom: 1%;
+        height:auto;
+        margin-top: 5pt;
+        margin-bottom: 5pt;
     }
     .blanctop{
         height: 100pt;
@@ -677,7 +682,8 @@ p#GrisRight{
     }
     .tram{
         width: auto;
-        height: auto;   
+        height: auto;
+        justify-content: flex-start;   
     }
     .bus{
         width: auto;
@@ -691,11 +697,8 @@ p#GrisRight{
         width: auto;
         height: auto;
     }
-    .orsecright{
-        margin-bottom: 50pt;
-    }
     .noirseccenter{
-        width: auto;
+        width: 100%;
         height: auto;
     }
 }
